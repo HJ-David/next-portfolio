@@ -25,7 +25,7 @@ import { GrMysql } from "react-icons/gr";
 
 const Tools = () => {
   return (
-    <div className='z-50 w-full mx-auto justify-center items-center pt-20 sm:text-xs'>
+    <div className='z-50 w-full mx-auto justify-center items-center pt-10 sm:text-xs'>
       <p className='text-2xl flex justify-center items-center'>Tools & Skills</p>
       <div className='z-50 w-full flex justify-center items-center px-10 sm:text-xs '>
 

@@ -73,7 +73,7 @@ export default function Home() {
               {/* <div className='w-1/2 md:w-full'>
 
             </div> */}
-              <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
+              <div className='w-1/2 flex flex-col items-center mt-20 self-center lg:w-full lg:text-center'>
                 <AnimatedText
                   text='Hi, I am Hoonjin'
                   className='!leading-tight !text-5xl !text-left 
