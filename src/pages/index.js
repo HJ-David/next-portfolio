@@ -17,10 +17,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Hoonjin&apos;s portfolio website</title>
+        <title>Hunjin&apos;s portfolio website</title>
         <meta
           name='description'
-          content="Hoonjin's portfolio website, showing how he is developing his skills from a front-end developer to a full-stack developer and software engineer."
+          content="Hunjin's portfolio website, showing how he is developing his skills from a front-end developer to a full-stack developer and software engineer."
         />
       </Head>
 
@@ -75,7 +75,7 @@ export default function Home() {
             </div> */}
               <div className='w-1/2 flex flex-col items-center mt-20 self-center lg:w-full lg:text-center'>
                 <AnimatedText
-                  text='Hi, I am Hoonjin'
+                  text='Hi, I am Hunjin'
                   className='!leading-tight !text-5xl !text-left 
                 xl:!text-4xl lg:!text-center lg:!text=5xl md:!text-4xl sm:!text-2xl 
                 '

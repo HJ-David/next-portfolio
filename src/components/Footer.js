@@ -19,7 +19,7 @@ const Footer = () => {
             "
             target={"_blank"}
           >
-            Hoonjin
+            Hunjin
           </Link>
         </div>
       

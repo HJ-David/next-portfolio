@@ -38,10 +38,10 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>Hoonjin&apos;s Portfolio | About Page</title>
+        <title>Hunjin&apos;s Portfolio | About Page</title>
         <meta
           name='description'
-          content='Learn more about Hoonjin, a web developer with a passion for 
+          content='Learn more about Hunjin, a web developer with a passion for 
         transforming ideas into reality.'
         />
       </Head>
@@ -58,7 +58,7 @@ const about = () => {
                 Biography
               </h2>
               <p className='font-medium'>
-                Hi, I&apos;m Hoonjin, a web developer with a passion for
+                Hi, I&apos;m Hunjin, a web developer with a passion for
                 creating beautiful, functional, and user-centered digital
                 experiences.
               </p>

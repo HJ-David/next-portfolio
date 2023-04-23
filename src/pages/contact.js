@@ -12,10 +12,10 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>Hoonjin&apos;s Portfolio | Contact Page</title>
+        <title>Hunjin&apos;s Portfolio | Contact Page</title>
         <meta
           name='description'
-          content='Learn more about Hoonjin, a web developer with passion for 
+          content='Learn more about Hunjin, a web developer with passion for 
         transforming ideas into reality.'
         />
       </Head>

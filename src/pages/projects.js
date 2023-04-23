@@ -145,10 +145,10 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>Hoonjin&apos;s Portfolio | Projects Page</title>
+        <title>Hunjin&apos;s Portfolio | Projects Page</title>
         <meta
           name='description'
-          content='Discover the latest projects created by Hoonjin'
+          content='Discover the latest projects created by Hunjin'
         />
       </Head>
       <TransitionEffect />
@@ -222,7 +222,7 @@ const projects = () => {
             <div className='col-span-12'>
               <FeaturedProject
                 type='Portfolio Website'
-                title="Hoonjin's portfolio"
+                title="Hunjin's portfolio"
                 summary='My portfolio website using NextJS, TailWindCSS, and Framer Motion. You can choose light mode or dark mode. Video and gradation background with parallax effect is applied on the first page.'
                 img={project7}
                 link='https://pagebackcountryadventures.com'
