@@ -52,7 +52,7 @@ const about = () => {
             </div>
 
             <div
-              className='w-[500px] sm:w-[350px] col-span-3 relative h-max rounded-xl border-1 border-solid border-dark
+              className='w-[500px] sm:w-[330px] col-span-3 relative h-max rounded-xl border-1 border-solid border-dark
 bg-light p-6 dark:bg-gray-500 dark:border-light xl:col-span-4 md:order-1 md:col-span-8
 '
             >

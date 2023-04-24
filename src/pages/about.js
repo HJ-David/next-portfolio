@@ -49,7 +49,7 @@ const about = () => {
       <main className='flex w-full flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-16'>
           <AnimatedText
-            text='Transforming Ideas Into Reality!'
+            text='Transforming Ideas Into Reality'
             className='mb-16 !leading-tight lg:!text-5xl sm:!text-4xl xs:!text-3xl sm:mb-8'
           />
           <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
@@ -68,7 +68,7 @@ const about = () => {
                 html, css, javascript, php, and other graphic design tools. But
                 from 2006, as I started to move to different places abroad, I
                 worked as an English teacher, translator, and interpreter. In
-                2021, I came back to web development field as learning modern
+                2021, I came back to the web development field and sarted learning modern
                 web development skills.
               </p>
 
@@ -82,7 +82,7 @@ const about = () => {
               <p className='font-medium'>
                 This is the quote I like with regard to my work. &quot;The art
                 of simplicity is genius. Simple people see as simple what others
-                see as complex. In classical Hebrew, the language of the Bible,
+                see as complex. In classical Hebrew,...
                 the word for simple and for perfect are the same, because
                 perfection lies in simplicity not in complexity.&quot;
               </p>
