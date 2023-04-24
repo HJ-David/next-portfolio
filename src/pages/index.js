@@ -1,5 +1,6 @@
 import AnimatedText from '@/components/AnimatedText';
 import { LinkArrow } from '@/components/Icons';
+import { BsCloudDownload } from "react-icons/bs";
 import Layout from '@/components/Layout'
 import TransitionEffect from '@/components/TransitionEffect';
 import Head from 'next/head'
@@ -95,16 +96,17 @@ export default function Home() {
                   <Link
                     href='/resumen_HJ_dev.pdf'
                     target={"_blank"}
-                    className='flex items-center bg-dark text-light p-2 px-3
-                  rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
-                  border-2 border-solid border-transparent hover:border-dark
+                    className='flex items-center bg-dark text-light p-2 px-3 rounded-lg text-lg font-semibold
+                  border-2 border-solid border-transparent hover:border-dark  hover:bg-light hover:text-dark
                   
-                  dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
-                  hover:dark:border-light md:p-2 md:px-4 md:text-base
+                  dark:bg-light dark:text-dark
+                  hover:dark:bg-dark hover:dark:text-light
+                  hover:dark:border-light 
+                  md:p-2 md:px-4 md:text-base
                   '
                     download={true}
                   >
-                    Resume <LinkArrow className={"w-6 ml-1"} />
+                    Resume <BsCloudDownload className="w-6 sm:w-4 ml-1" />
                   </Link>
                   <Link
                     href='mailto:abcd@gmail.com'
