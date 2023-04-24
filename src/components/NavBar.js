@@ -186,7 +186,7 @@ const NavBar = () => {
 
           <nav className='flex items-center justify-center flex-wrap mt-2'>
             <motion.a
-              href='https://twitter.com'
+              href='https://twitter.com/Hoonjin_Jang'
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -195,7 +195,7 @@ const NavBar = () => {
               <TfiTwitterAlt className='text-2xl' />
             </motion.a>
             <motion.a
-              href='https://twitter.com'
+              href='https://github.com/HJ-David'
               target={"_blank"}
               className='w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1'
               whileHover={{ y: -2 }}
@@ -204,18 +204,18 @@ const NavBar = () => {
               <BsGithub className='text-2xl' />
             </motion.a>
             <motion.a
-              href='https://twitter.com'
+              href='mailto:david.hoonjin.jang@gmail.com'
               target={"_blank"}
-              className='w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1'
+              className='w-6 mx-3  rounded-full sm:mx-1'
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
             >
-              <TfiEmail className='text-2xl' />
+              <TfiEmail className='text-2xl dark:text-dark text-white' />
             </motion.a>
 
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
-              className={`ml-3 flex items-center justify-center rounded-full p-1
+              className={`w-6 ml-3 flex items-center justify-center rounded-full p-1
       ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
       `}
             >
