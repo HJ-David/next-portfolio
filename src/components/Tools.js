@@ -4,7 +4,7 @@ import {
   SiJavascript,
   SiTailwindcss,
   SiStrapi,
-  SiNginx,
+  SiMongodb,
   SiAdobeillustrator,
   SiAdobephotoshop,
 } from "react-icons/si";
@@ -26,9 +26,10 @@ import { GrMysql } from "react-icons/gr";
 const Tools = () => {
   return (
     <div className='z-50 w-full mx-auto justify-center items-center pt-10 sm:text-xs'>
-      <p className='text-2xl flex justify-center items-center'>Tools & Skills</p>
+      <p className='text-2xl flex justify-center items-center'>
+        Tools & Skills
+      </p>
       <div className='z-50 w-full flex justify-center items-center px-10 sm:text-xs '>
-
         <div className='grid w-full justify-center items-center py-5 '>
           <div className='flex flex-col p-2 items-center justify-center sm:py-7'>
             <SiJavascript className='w-10 h-10' />
@@ -43,8 +44,7 @@ const Tools = () => {
             Strapi
           </div>
           <div className='flex flex-col p-2 items-center justify-center sm:py-7'>
-            <SiNginx className='w-10 h-10' />
-            Nginx
+            <SiMongodb className='w-10 h-10' />
           </div>
         </div>
 
@@ -63,14 +63,14 @@ const Tools = () => {
           </div>
           <div className='flex flex-col p-2 items-center justify-center sm:py-7'>
             <FaUbuntu className='w-10 h-10' />
-            Ubuntu
+            MongoDB
           </div>
         </div>
 
         <div className='grid w-full justify-center items-center py-5'>
           <div className='flex flex-col p-2 items-center justify-center sm:py-7'>
             <TbBrandNextjs className='w-10 h-10' />
-            Next JS
+            NextJS
           </div>
           <div className='flex flex-col p-2 items-center justify-center sm:py-7'>
             <SiTailwindcss className='w-10 h-10' />

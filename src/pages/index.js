@@ -1,5 +1,4 @@
 import AnimatedText from '@/components/AnimatedText';
-import { LinkArrow } from '@/components/Icons';
 import { BsCloudDownload } from "react-icons/bs";
 import Layout from '@/components/Layout'
 import TransitionEffect from '@/components/TransitionEffect';
