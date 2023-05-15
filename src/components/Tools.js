@@ -15,11 +15,10 @@ import {
   FaBootstrap,
   FaWordpress,
   FaGithub,
-  FaUbuntu,
   FaNodeJs,
 } from "react-icons/fa";
 import { TbBrandNextjs, TbBrandCss3 } from "react-icons/tb";
-import { Sanity, Fcpx } from "./Icons";
+import { Sanity, Fcpx, Cloudinary } from "./Icons";
 import { GrMysql } from "react-icons/gr";
 
 
@@ -45,6 +44,7 @@ const Tools = () => {
           </div>
           <div className='flex flex-col p-2 items-center justify-center sm:py-7'>
             <SiMongodb className='w-10 h-10' />
+            MongoDB
           </div>
         </div>
 
@@ -62,8 +62,8 @@ const Tools = () => {
             Sanity
           </div>
           <div className='flex flex-col p-2 items-center justify-center sm:py-7'>
-            <FaUbuntu className='w-10 h-10' />
-            MongoDB
+            <Cloudinary className='w-10 h-10' />
+            Cloudinary
           </div>
         </div>
 
