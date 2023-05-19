@@ -12,6 +12,7 @@ import project4 from "../../public/images/projects/pba.png";
 import project5 from "../../public/images/projects/text2mp3.png";
 import project6 from "../../public/images/projects/text2mp4.png";
 import project7 from "../../public/images/projects/portfolio.png";
+import project8 from "../../public/images/projects/reading.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -170,6 +171,18 @@ const projects = () => {
                 github='https://github.com/HJ-David/ClassConnected'
               />
             </div>
+
+            <div className='col-span-12'>
+              <FeaturedProject
+                type='Blog'
+                title='Reading Materials by Level'
+                summary='You can find short interesting stories that fit your level. Gradually, you can move up to a higher level.'
+                img={project8}
+                link='https://next13-mongodb-reading-corner.vercel.app'
+                github='https://github.com/HJ-David/next13-mongodb-ReadingCorner'
+              />
+            </div>
+
             <div className='col-span-6 sm:col-span-12'>
               <Project
                 type='Subscription Website for recycling services'
