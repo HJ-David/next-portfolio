@@ -13,6 +13,7 @@ import project5 from "../../public/images/projects/text2mp3.png";
 import project6 from "../../public/images/projects/text2mp4.png";
 import project7 from "../../public/images/projects/portfolio.png";
 import project8 from "../../public/images/projects/reading.png";
+import project9 from "../../public/images/projects/oneliner.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -240,6 +241,17 @@ const projects = () => {
                 img={project7}
                 link='https://pagebackcountryadventures.com'
                 github='https://github.com/HJ-David/PBA'
+              />
+            </div>
+
+            <div className='col-span-12'>
+              <FeaturedProject
+                type='Next13-MongoDB-Tailwind-NextAuth'
+                title='One-liner'
+                summary='Coding Practice with Next13-MongoDB-Tailwind-NextAuth'
+                img={project9}
+                link='https://next13-oneliner.vercel.app/'
+                github='https://github.com/HJ-David/next13_oneliner'
               />
             </div>
           </div>
