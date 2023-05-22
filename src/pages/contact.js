@@ -39,11 +39,11 @@ const about = () => {
               </a>
 
               <a
-                href='mailto:david.hoonjin.jang@gmail.com'
+                href='mailto:hj@hunjin.site'
                 target={"_blank"}
                 className='my-10 ml-1 font-bold text-2xl sm:text-2xl'
               >
-                Email: david.hoonjin.jang@gmail.com
+                Email: hj@hunjin.site
               </a>
 
               <p className='my-4 font-medium'></p>

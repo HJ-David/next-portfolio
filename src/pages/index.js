@@ -105,10 +105,10 @@ export default function Home() {
                   '
                     download={true}
                   >
-                    Resume <BsCloudDownload className="w-6 sm:w-4 ml-1" />
+                    Resume <BsCloudDownload className='w-6 sm:w-4 ml-1' />
                   </Link>
                   <Link
-                    href='mailto:david.hoonjin.jang@gmail.com'
+                    href='mailto:hj@hunjin.site'
                     target={"_blank"}
                     className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base'
                   >
