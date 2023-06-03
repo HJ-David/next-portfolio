@@ -169,7 +169,7 @@ const projects = () => {
                 summary='An online language class app using React, Tailwind CSS, Strapi API, React Router, i18next internationalization and Stripe. You can choose English, Korea, Chinese simplified and Chinese traditional. A blog function will be added.'
                 img={project1}
                 link='https://classconnected.online'
-                github='https://github.com/HJ-David/ClassConnected'
+                github='https://github.com/HJ-David/cc-client-react-strapi-redux-i18n-tailwindcss'
               />
             </div>
 
