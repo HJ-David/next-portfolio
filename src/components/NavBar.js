@@ -125,7 +125,7 @@ const NavBar = () => {
             <BsGithub className='text-2xl' />
           </motion.a>
           {/* <motion.a
-            href='mailto:hj@hunjin.site'
+            href='mailto:jang@hunjin.site'
             target={"_blank"}
             className='w-6 mx-3'
             whileHover={{ y: -2 }}
@@ -204,7 +204,7 @@ const NavBar = () => {
               <BsGithub className='text-2xl' />
             </motion.a>
             {/* <motion.a
-              href='mailto:hj@hunjin.site'
+              href='mailto:jang@hunjin.site'
               target={"_blank"}
               className='w-6 mx-3  rounded-full sm:mx-1'
               whileHover={{ y: -2 }}

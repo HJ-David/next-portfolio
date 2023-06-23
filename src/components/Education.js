@@ -49,7 +49,7 @@ const Education = () => {
             type='Bachelor of Science in Computer Science'
             time='2003-2004'
             place='ACBS, Korea'
-            info='he Korean Academic Credit Bank System
+            info='The Korean Academic Credit Bank System
 system which recognizes certificates and liscences as credits and can award
 (ACBS) is an open educational
 degrees.'

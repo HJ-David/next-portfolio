@@ -31,19 +31,19 @@ const about = () => {
             <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'></h2>
               <a
-                href='tel:+1 302-208-0088'
+                href='tel:+1 928-640-0836'
                 target={"_blank"}
                 className='mt-1 ml-1 font-bold text-2xl sm:text-2xl'
               >
-                Mobile: +1 302 208 0088
+                Mobile: +1 928 640 0836
               </a>
 
               <a
-                href='mailto:hj@hunjin.site'
+                href='mailto:jang@hunjin.site'
                 target={"_blank"}
                 className='my-10 ml-1 font-bold text-2xl sm:text-2xl'
               >
-                Email: hj@hunjin.site
+                Email: jang@hunjin.site
               </a>
 
               <p className='my-4 font-medium'></p>
