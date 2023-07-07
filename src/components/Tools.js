@@ -1,5 +1,4 @@
 import React from 'react'
-import { AiOutlineHtml5 } from "react-icons/ai";
 import {
   SiJavascript,
   SiTailwindcss,
@@ -7,6 +6,7 @@ import {
   SiMongodb,
   SiAdobeillustrator,
   SiAdobephotoshop,
+  SiTypescript,
 } from "react-icons/si";
 import {
   FaReact,
@@ -88,8 +88,8 @@ const Tools = () => {
 
         <div className='grid w-full justify-center items-center py-5'>
           <div className='flex flex-col p-2 items-center justify-center sm:py-7'>
-            <AiOutlineHtml5 className='w-10 h-10' />
-            HTML
+            <SiTypescript className='w-10 h-10' />
+            TypeScript
           </div>
           <div className='flex flex-col p-2 items-center justify-center sm:py-7'>
             <FaBootstrap className='w-10 h-10' />
